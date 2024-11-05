@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <!-- Basic Podcast Info -->
+    <title>Your Podcast Title</title>
+    <link>https://devigma.com</link>
+    <language>en-us</language>
+    <description>
+        it and tech podcast
+        </description>
+
+    <!-- iTunes-specific Tags -->
+    <itunes:author>Your Name</itunes:author>
+    <itunes:subtitle>A short subtitle</itunes:subtitle>
+    <itunes:summary>A longer summary of the podcast</itunes:summary>
+    <itunes:image href="https://media.canva.com/v2/image-resize/format:JPG/height:800/quality:92/uri:s3%3A%2F%2Fmedia-private.canva.com%2F1WRCE%2FMAGVm81WRCE%2F1%2Fp.jpg/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAAFxhMAP8WTmq4Aqu8V_FBK-3V9Ls8LqVGdqjdTrKZs9u&amp;exp=1730824943&amp;osig=AAAAAAAAAAAAAAAAAAAAAPdgWTvQBwtXPU2g3xbpndvd8-CAMG4SGmRBEmPFVEhk&amp;signer=media-rpc&amp;x-canva-quality=screen"/>
+    <itunes:category text="Technology"/>
+    <itunes:explicit>no</itunes:explicit>
+
+    <!-- Podcast Owner Info -->
+    <itunes:owner>
+      <itunes:name>ZAOUICH</itunes:name>
+      <itunes:email>baderzaouichbz@gmail.com</itunes:email>
+    </itunes:owner>
+
+    <!-- Episode 1 -->
+    <item>
+      <title>Episode 1 Title</title>
+      <itunes:author>Your Name</itunes:author>
+      <itunes:subtitle>Episode 1 subtitle</itunes:subtitle>
+      <itunes:summary>Description of the first episode</itunes:summary>
+      <enclosure url="http://commondatastorage.googleapis.com/codeskulptor-assets/Evillaugh.ogg" length="12345678" type="audio/mpeg"/>
+      <guid>http://commondatastorage.googleapis.com/codeskulptor-assets/Evillaugh.ogg</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <itunes:duration>30:00</itunes:duration>
+    </item>
+
+    <!-- Add more episodes in similar fashion -->
+  </channel>
+</rss>
